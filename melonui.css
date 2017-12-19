@@ -1,0 +1,31 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+
+/* Typography */
+html, body {
+    font-family: 'Inter UI', sans-serif;
+}
+
+
+/* Buttons */
+.mln-button {
+    color: #fff;
+    background-color: #06c78a;
+    transition: .2s ease;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 18px;
+}
+.mln-button:hover{background-color: #06B77F;}
+.mln-button:active{background-color: #04815a;}
+
+.mln-button-outline {
+    color: #000;
+    border: 2px solid #06c78a;
+    transition: .2s ease;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 18px;
+}
+.mln-button-outline:hover{border: 2px solid #06B77F;background-color: #04815a;color: #fff;}
+.mln-button-outline:active{border: 2px solid #04815a;background-color: #265747;color: #fff;}
