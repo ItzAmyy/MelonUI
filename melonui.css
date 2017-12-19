@@ -16,16 +16,20 @@ html, body {
     text-decoration: none;
     border-radius: 18px;
 }
-.mln-button:hover{background-color: #06B77F;}
-.mln-button:active{background-color: #04815a;}
+.mln-button:hover{background-color: #06B77F;
+box-shadow: 0 2px 3px 0 #0000003d, 0 2px 3px 0 #00000030;}
+.mln-button:active{background-color: #04815a;
+box-shadow: 0 12px 16px 0 #000000b6 17px 50px 0 #000000b6;}
 
 .mln-button-outline {
     color: #000;
-    border: 2px solid #06c78a;
+    border: 3px solid #06c78a;
     transition: .2s ease;
-    padding: 10px 20px;
+    padding: 9px 18px;
     text-decoration: none;
     border-radius: 18px;
 }
-.mln-button-outline:hover{border: 2px solid #06B77F;background-color: #04815a;color: #fff;}
-.mln-button-outline:active{border: 2px solid #04815a;background-color: #265747;color: #fff;}
+.mln-button-outline:hover{border: 3px solid #06B77F;
+box-shadow: 0 2px 3px 0 #0000003d, 0 2px 3px 0 #00000030;}
+.mln-button-outline:active{border: 3px solid #04815a;
+box-shadow: 0 12px 16px 0 #000000b6 17px 50px 0 #000000b6;}
